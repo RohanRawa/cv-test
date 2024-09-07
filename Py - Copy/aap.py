@@ -23,9 +23,9 @@ def submit():
     return f"Thank you {name}, your message has been sent!"
 
 def send_email(name, email,subject, message):
-    sender_email = "rohanrawat.dm@gmail.com"  # Replace with your Gmail address
-    receiver_email = "rohanrawat.dm@gmail.com"  # Replace with the receiver's email address
-    password = "rlzx xtxc ujjj juqp"  # Replace with your Gmail password or app-specific password
+    sender_email = "Gmail"  # Replace with your Gmail address
+    receiver_email = "gmail"  # Replace with the receiver's email address
+    password = "Password"  # Replace with your Gmail password or app-specific password
 
     # Create a MIME message
     msg = MIMEMultipart()
